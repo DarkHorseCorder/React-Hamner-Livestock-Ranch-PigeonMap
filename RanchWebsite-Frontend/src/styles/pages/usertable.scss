@@ -1,0 +1,84 @@
+form {
+  background-color: rgb(28, 67, 98);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 5% 20%;
+  padding: 2%;
+  justify-content: space-between 5%;
+  gap: 10px;
+  color: bisque;
+  font-size: 20px;
+}
+input {
+  height: 30px;
+}
+.cancel-button {
+  height: 30px;
+  width: 38%;
+  margin-top: 5%;
+  margin-left: 7%;
+}
+.confirm-button {
+  height: 30px;
+  width: 38%;
+  margin-top: -5%;
+  margin-left: 55%;
+}
+
+.role-select-container,
+.org-select-container {
+  select {
+    display: flex;
+    height: 30px;
+    width: 38%;
+  }
+}
+
+.role-label,
+.role-select-container {
+  margin-top: -10%;
+  margin-left: 50%;
+}
+.role-select-container {
+  margin-top: 0%;
+}
+
+.organization-list-container {
+  margin: 2%;
+  .add-confirm-button {
+    background-color: rgb(24, 58, 85);
+    color: bisque;
+    height: 30px;
+    margin-left: 70%;
+    width: 30%;
+  }
+}
+// .confirm-button {
+//   width: 38%;
+// }
+.filter {
+  margin-top: -5%;
+  margin-left: 35%;
+}
+.button-and-search {
+  width: 38%;
+  margin-top: 5%;
+  margin-left: 60%;
+}
+.user-filter {
+  background-color: rgb(24, 58, 85);
+  color: rgb(231, 212, 188);
+  padding-left: 2%;
+  margin-top: -5%;
+  font-weight: bold;
+}
+.edit-confirm-button {
+  width: 180%;
+  height: 25px;
+  background-color: rgb(10, 39, 62);
+  color: beige;
+}
+.info {
+  background-color: steelblue;
+}

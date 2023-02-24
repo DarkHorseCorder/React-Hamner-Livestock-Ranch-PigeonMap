@@ -1,0 +1,73 @@
+.notification-wrapper {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 300px;
+  }
+  
+  .notification-item {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    animation: SlideLeft 0.2s;
+    animation-fill-mode: forwards;
+    width: 300px;
+  }
+  
+  @keyframes SlideLeft {
+    0% {
+      margin-left: 120%;
+    }
+  
+    100% {
+      margin-left: 0;
+    }
+  }
+  
+  @keyframes SlideRight {
+    0% {
+      margin-left: 0;
+    }
+  
+    100% {
+      margin-left: 120%;
+    }
+  }
+  
+  .notification-item.exit {
+    animation: SlideRight 0.2s;
+    animation-fill-mode: forwards;
+  }
+  
+  .notification-item p {
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .notification-item .bar {
+    height: 10px;
+  }
+  
+  .Toastify__toast--success {
+    background-color: #85c1e9;
+    .fas {
+      padding-right: 10px;
+    }
+  }
+  
+  .Toastify__toast--error {
+    background-color: #ce3635;
+    .fas {
+      padding-right: 10px;
+    }
+  }
+  
+  .Toastify__toast--warning {
+    background-color: #fdd656;
+    .fas {
+      padding-right: 10px;
+    }
+  }
+  

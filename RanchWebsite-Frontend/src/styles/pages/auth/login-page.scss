@@ -1,0 +1,85 @@
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+
+  .login-page-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      margin-bottom: 30px;
+    }
+
+    .form-wrapper {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      // h2 {
+      //   color: $second-lightest;
+      // }
+
+      .login-form {
+        width: 100%;
+        text-align: right;
+
+        label {
+          text-align: right;
+          margin-right: 10px;
+        }
+
+        .email-wrapper,
+        .password-wrapper {
+          input {
+            height: 32px;
+            width: 71%;
+            border: solid thin rgba(191, 193, 197, 0.75);
+            border-radius: 4px;
+            margin: 0;
+            padding-left: 7px;
+            outline: none;
+            transition: 0.2s ease-in-out;
+
+            &:hover,
+            &:focus {
+              border: solid thin rgba(0, 0, 0, 0.75);
+            }
+          }
+        }
+
+        .password-wrapper {
+          margin-top: 3%;
+        }
+
+        .fp-login-link {
+          margin: 2% 0;
+
+          .no-decoration {
+            // color: $second-lightest;
+            transition: 0.3s ease-in-out;
+
+            // &:hover {
+            //   color: $second-darkest;
+            // }
+          }
+        }
+
+        .login-button {
+          color: white;
+          // background-color: $second-lightest;
+          height: 39px;
+          width: 74%;
+          margin-right: 0px;
+          transition: 0.3s ease-in-out;
+          border: 1px solid transparent;
+
+          // &:hover {
+          //   background-color: $second-darkest;
+          // }
+        }
+      }
+    }
+  }
+}

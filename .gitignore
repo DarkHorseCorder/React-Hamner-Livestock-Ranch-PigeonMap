@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/RanchWebsite-Frontend/node_modules
+/RanchWebsite-Frontend/.pnp
+.pnp.js
+
+# testing
+/RanchWebsite-Frontend/coverage
+
+# production
+/build
+
+# misc
+/RanchWebsite-Frontend/.DS_Store
+/RanchWebsite-Frontend/.env.local
+/RanchWebsite-Frontend/.env.development.local
+/RanchWebsite-Frontend/.env.test.local
+/RanchWebsite-Frontend/.env.production.local
+
+/RanchWebsite-Frontend/npm-debug.log*
+/RanchWebsite-Frontend/yarn-debug.log*
+/RanchWebsite-Frontend/yarn-error.log*
+
+/RanchWebsite-Backend/env

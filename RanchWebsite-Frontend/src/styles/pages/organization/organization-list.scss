@@ -1,0 +1,12 @@
+.organization-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: teal;
+
+  .organization-list-container {
+    width: 80%;
+    color: pink;
+  }
+}
